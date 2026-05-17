@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact – Negocio Business</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="top-bar-inner">
+      <span>Welcome To Our Business Consulting Your Partner For Success</span>
+      <div class="top-bar-right">
+  <i class="fas fa-globe"></i>
+  <select class="lang-select">
+    <option value="en">English</option>
+    <option value="fr">Français</option>
+    <option value="es">Español</option>
+    <option value="pt">Português</option>
+  </select>
+  <div class="lang-arrows">
+    <i class="fas fa-caret-up"></i>
+    <i class="fas fa-caret-down"></i>
+  </div>
+</div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <div class="logo">
+        <img src="logo.jpeg" alt="Negocio Business" class="logo-img"/>
+      </div>
+      </div>
+      <div class="header-contact">
+        <div class="contact-item">
+          <div class="contact-icon phone-icon"><i class="fas fa-phone"></i></div>
+          <div class="contact-text">
+            <span>012 345 6789</span>
+            <span>123 456 7890</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon telegram-icon"><i class="fab fa-telegram-plane"></i></div>
+          <div class="contact-text">
+            <span>support@negocio.com</span>
+            <span>info@negociobusiness.com</span>
+          </div>
+        </div>
+      </div>
+      <div class="header-social">
+        <a href="#" class="social-btn active-social"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <button class="burger" onclick="this.classList.toggle('open'); document.querySelector('.nav-links').classList.toggle('show');">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="oursteps.html">OUR STEPS</a></li>
+        <li><a href="facilities.html">FACILITIES</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+        <li><a href="clients.html">CLIENTS</a></li>
+        <li><a href="testimonials.html">TESTIMONIALS</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="contact.html" class="active">CONTACT</a></li>
+      </ul>
+      <a href="contact.html" class="quick-inquiry">QUICK INQUIRY</a>
+    </div>
+  </nav>
+
+  <!-- PAGE BANNER -->
+  <section class="page-banner">
+    <div class="page-banner-overlay"></div>
+    <div class="page-banner-content">
+      <h1>CONTACT</h1>
+      <p><a href="index.html">Home</a> &rsaquo; Contact</p>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="page-intro">
+    <div class="page-intro-inner">
+      <h2>Parlons de votre projet</h2>
+      <div class="services-underline">
+        <div class="line"></div>
+        <div class="bar-tall"></div>
+        <div class="bar-short"></div>
+        <div class="line"></div>
+      </div>
+      <p>Nous sommes disponibles pour répondre à toutes vos questions et vous accompagner dans vos projets. Contactez-nous dès aujourd'hui pour une consultation gratuite.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT INFO CARDS -->
+  <section class="contact-cards">
+    <div class="contact-cards-inner">
+      <div class="contact-card">
+        <div class="contact-card-icon"><i class="fas fa-map-marker-alt"></i></div>
+        <h3>Notre Adresse</h3>
+        <p>123 Avenue des Affaires<br/>Kinshasa, RDC</p>
+      </div>
+      <div class="contact-card">
+        <div class="contact-card-icon"><i class="fas fa-phone"></i></div>
+        <h3>Téléphone</h3>
+        <p>012 345 6789<br/>123 456 7890</p>
+      </div>
+      <div class="contact-card">
+        <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+        <h3>Email</h3>
+        <p>support@negocio.com<br/>info@negociobusiness.com</p>
+      </div>
+      <div class="contact-card">
+        <div class="contact-card-icon"><i class="fas fa-clock"></i></div>
+        <h3>Horaires</h3>
+        <p>Lun – Ven : 8h – 18h<br/>Sam : 9h – 13h</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULAIRE + CARTE -->
+  <section class="contact-main">
+    <div class="contact-main-inner">
+
+      <!-- Formulaire -->
+      <div class="contact-form-wrap">
+        <h2>Envoyez-nous un message</h2>
+        <div class="services-underline" style="margin: 10px 0 24px;">
+          <div class="line"></div>
+          <div class="bar-tall"></div>
+          <div class="bar-short"></div>
+          <div class="line"></div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nom">Nom complet *</label>
+            <input type="text" id="nom" name="nom" placeholder="Votre nom"/>
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" placeholder="Votre email"/>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="telephone">Téléphone</label>
+            <input type="tel" id="telephone" name="telephone" placeholder="Votre numéro"/>
+          </div>
+          <div class="form-group">
+            <label for="sujet">Sujet *</label>
+            <input type="text" id="sujet" name="sujet" placeholder="Sujet de votre message"/>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Service souhaité</label>
+          <select>
+            <option>Sélectionnez un service</option>
+            <option>Conseil Stratégique</option>
+            <option>Gestion d'Entreprise</option>
+            <option>Conseil Financier</option>
+            <option>Marketing & Communication</option>
+            <option>Développement Commercial</option>
+            <option>Expansion Internationale</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message *</label>
+          <textarea rows="6" id="message" name="message" placeholder="Décrivez votre projet ou votre demande..."></textarea>
+        </div>
+        <button type="submit" class="btn-submit">Envoyer le message</button>
+      </div>
+
+      <!-- Carte -->
+      <div class="contact-map-wrap">
+        <h2>Nous Trouver</h2>
+        <div class="services-underline" style="margin: 10px 0 24px;">
+          <div class="line"></div>
+          <div class="bar-tall"></div>
+          <div class="bar-short"></div>
+          <div class="line"></div>
+        </div>
+        <div class="contact-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63703.78845375185!2d15.2662!3d-4.3217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a33e60b74c3c1%3A0x6a18be6de9a9c43c!2sKinshasa%2C%20Democratic%20Republic%20of%20the%20Congo!5e0!3m2!1sen!2s!4v1620000000000!5m2!1sen!2s"
+            width="100%" height="380" style="border:0;" allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+        <div class="contact-social">
+          <h4>Suivez-nous</h4>
+          <div class="contact-social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section class="cta-band">
+    <div class="cta-band-inner">
+      <h2>Besoin d'une réponse rapide ?</h2>
+      <p>Appelez-nous directement au 012 345 6789 — disponible du lundi au vendredi.</p>
+      <a href="tel:0123456789" class="btn-cta">Appeler maintenant</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Business WordPress Theme By Luzuk.</p>
+  </footer>
+
+</body>
+</html>

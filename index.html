@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Negocio Business</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="top-bar-inner">
+      <span>Welcome To Our Business Consulting Your Partner For Success</span>
+      <div class="top-bar-right">
+  <i class="fas fa-globe"></i>
+  <select class="lang-select">
+    <option value="en">English</option>
+    <option value="fr">Français</option>
+    <option value="es">Español</option>
+    <option value="pt">Português</option>
+  </select>
+  <div class="lang-arrows">
+    <i class="fas fa-caret-up"></i>
+    <i class="fas fa-caret-down"></i>
+  </div>
+</div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-inner">
+      <!-- Logo -->
+      <div class="logo">
+        <img src="logo.jpeg" alt="Negocio Business" class="logo-img"/>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="header-contact">
+        <div class="contact-item">
+          <div class="contact-icon phone-icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div class="contact-text">
+            <span>012 345 6789</span>
+            <span>123 456 7890</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon telegram-icon">
+            <i class="fab fa-telegram-plane"></i>
+          </div>
+          <div class="contact-text">
+            <span>support@business.com</span>
+            <span>info@businessweb.com</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="header-social">
+        <a href="#" class="social-btn active-social"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <button class="burger" onclick="this.classList.toggle('open'); document.querySelector('.nav-links').classList.toggle('show');">
+        &#9776
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">HOME</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="oursteps.html">OUR STEPS</a></li>
+        <li><a href="facilities.html">FACILITIES</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+        <li><a href="clients.html">CLIENTS</a></li>
+        <li><a href="testimonials.html">TESTIMONIALS</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+      <a href="#" class="quick-inquiry">QUICK INQUIRY</a>
+    </div>
+  </nav>
+  <!-- HERO SECTION -->
+<section class="hero">
+  <input type="radio" name="slider" id="slide1" checked/>
+  <input type="radio" name="slider" id="slide2"/>
+  <input type="radio" name="slider" id="slide3"/>
+
+  <div class="hero-slides">
+    <div class="hero-slide slide1">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1><span class="hero-title-bg">VOTRE PARTENAIRE<br/>DE CONFIANCE EN AFFAIRES</span></h1>
+        <a href="about.html" class="btn-readmore">Read More</a>
+      </div>
+    </div>
+    <div class="hero-slide slide2">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1><span class="hero-title-bg">CONSEIL STRATÉGIQUE<br/>POUR VOTRE CROISSANCE</span></h1>
+        <a href="services.html" class="btn-readmore">Read More</a>
+      </div>
+    </div>
+    <div class="hero-slide slide3">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1><span class="hero-title-bg">DÉVELOPPEZ VOTRE<br/>ENTREPRISE AVEC NOUS</span></h1>
+        <a href="contact.html" class="btn-readmore">Read More</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Flèches -->
+  <div class="hero-arrows">
+    <label for="slide3" class="slider-arrow left"><i class="fas fa-chevron-left"></i></label>
+    <label for="slide2" class="slider-arrow right"><i class="fas fa-chevron-right"></i></label>
+  </div>
+
+  <!-- Dots -->
+  <div class="slider-dots">
+    <label for="slide1" class="dot"></label>
+    <label for="slide2" class="dot"></label>
+    <label for="slide3" class="dot"></label>
+  </div>
+</section>
+  
+
+  <!-- INTRO SECTION -->
+  <section class="intro">
+    <div class="intro-inner">
+      <div class="intro-left">
+        <h2>NEGOCIO BUSINESS VOTRE PARTENAIRE DE SUCCES</h2>
+      </div>
+      <div class="intro-right">
+        <p>Negocio Business est un cabinet de conseil stratégique qui accompagne les entreprises dans leur croissance, leur structuration et leur développement. Fort de 15 ans d'expérience, nous mettons notre expertise au service de votre réussite.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section class="services">
+    <div class="services-inner">
+      <h2 class="services-title">OUR SERVICES</h2>
+      <div class="services-underline">
+        <div class="line"></div>
+        <div class="bar-tall"></div>
+        <div class="bar-short"></div>
+        <div class="line"></div>
+      </div>
+
+      <div class="services-grid">
+        <!-- Card 1 -->
+        <div class="service-card">
+          <div class="service-img">
+            <img src="maq1.jpg" alt="Service 1"/>
+          </div>
+          <h3>Conseil Stratégique</h3>
+          <p>Analyse et plan stratégique sur mesure</p>
+          <a href="#" class="btn-service active-btn">Read More</a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="service-card">
+          <div class="service-img">
+            <img src="maq2.jpg" alt="Service 2"/>
+          </div>
+          <h3>Gestion d'Entreprise</h3>
+          <p>Optimisation de vos processus internes</p>
+          <a href="#" class="btn-service">Read More</a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="service-card">
+          <div class="service-img">
+            <img src="maq3.jpg" alt="Service 3"/>
+          </div>
+          <h3>Conseil Financier</h3>
+          <p>Planification budgétaire et financement</p>
+          <a href="#" class="btn-service">Read More</a>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="service-card">
+          <div class="service-img">
+            <img src="maq4.jpg" alt="Service 4"/>
+          </div>
+          <h3>Marketing & Communication</h3>
+          <p>Stratégie digitale et identité de marque</p>
+          <a href="#" class="btn-service">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Business WordPress Theme By Luzuk.</p>
+  </footer>
+
+</body>
+</html>
